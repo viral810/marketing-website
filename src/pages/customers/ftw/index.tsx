@@ -18,7 +18,7 @@ export default class extends React.PureComponent {
   public render() {
     const title = "For the Win";
     const description =
-      "This New York based consultancy helps early-stage startups build a great workplace by using Dovetail for user research analysis";
+      "This New York based consultancy helps early-stage startups build a great workplace for their employees by using Dovetail for user research analysis.";
 
     return (
       <PageLayout>

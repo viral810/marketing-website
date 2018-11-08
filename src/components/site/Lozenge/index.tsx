@@ -7,7 +7,7 @@ export const Lozenge = styled("div", {
   display: "inline-block",
   color: COLORS.i60,
   fontSize: "12px",
-  fontWeight: 500,
+  fontWeight: 600,
   height: "24px",
   lineHeight: "16px",
   padding: "4px 8px"

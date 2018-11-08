@@ -21,7 +21,7 @@ export default class extends React.PureComponent {
   public render() {
     const title = "Intrepid Group";
     const description =
-      "The world’s largest provider of adventure travel experiences uses Dovetail to store and analyze research data from a rapidly growing user experience team";
+      "The world’s largest provider of adventure travel experiences uses Dovetail to store and analyze research data from a rapidly growing user experience team.";
 
     return (
       <PageLayout>

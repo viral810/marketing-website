@@ -4,7 +4,6 @@ import { Header } from "@heydovetail/website/components/site/Header";
 import { ErrorBoundary } from "@heydovetail/website/components/util/ErrorBoundary";
 import { GatsbyLinkWrapper } from "@heydovetail/website/components/util/GatsbyLinkWrapper";
 import React from "react";
-import "typeface-rubik";
 import { styled } from "typestyle-react";
 import { DefaultMetaTags } from "./DefaultMetaTags";
 import "./globalstyles";

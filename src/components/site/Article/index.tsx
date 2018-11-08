@@ -78,5 +78,5 @@ const Title = styled("h2", {
 
 const Link = styled("p", {
   color: COLORS.purple,
-  fontWeight: 500
+  fontWeight: 600
 });

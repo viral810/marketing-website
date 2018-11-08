@@ -11,7 +11,7 @@ export default class extends React.PureComponent {
   public render() {
     const title = "Jobs at Dovetail";
     const description =
-      "Build the future of user research as one of our first employees. Work on an exciting, fast growing product with hundreds of happy customers worldwide.";
+      "Build the future of user research and work on an exciting, rapidly growing product with hundreds of customers worldwide.";
 
     return (
       <PageLayout>
@@ -28,7 +28,7 @@ export default class extends React.PureComponent {
                   <Hero title={title} />
                 </Item>
                 <Item>
-                  <Flex styled={{ gap: 24, layout: "column" }}>
+                  <Flex styled={{ gap: 16, layout: "column" }}>
                     <Item>
                       <p>{description}</p>
                     </Item>

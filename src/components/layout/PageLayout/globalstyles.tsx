@@ -24,7 +24,7 @@ cssRule("body", {
 
 cssRule("h1", {
   fontSize: "48px",
-  fontWeight: 500,
+  fontWeight: 700,
   lineHeight: "56px",
   margin: 0,
   overflow: "hidden",
@@ -33,7 +33,7 @@ cssRule("h1", {
 
 cssRule("h2", {
   fontSize: "32px",
-  fontWeight: 400,
+  fontWeight: 600,
   lineHeight: "40px",
   margin: 0,
   overflow: "hidden",
@@ -49,7 +49,7 @@ cssRule("h3", {
 
 cssRule("h4", {
   fontSize: "16px",
-  fontWeight: 500,
+  fontWeight: 600,
   lineHeight: "24px",
   margin: 0
 });
@@ -66,7 +66,7 @@ cssRule("p", {
 });
 
 cssRule("b, strong", {
-  fontWeight: 500
+  fontWeight: 600
 });
 
 cssRule("li", {
@@ -75,9 +75,7 @@ cssRule("li", {
 });
 
 cssRule("button, input, textarea", {
-  fontFamily: FONT_FAMILY,
-  // tslint:disable-next-line:no-any
-  fontWeight: "500 !important" as any
+  fontFamily: FONT_FAMILY
 });
 
 cssRule("::-webkit-input-placeholder", {

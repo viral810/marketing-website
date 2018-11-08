@@ -18,7 +18,7 @@ export default class extends React.PureComponent {
   public render() {
     const title = "Careship";
     const description =
-      "This Berlin-based startup wants to fundamentally change the way care is delivered, and user research with Dovetail plays a critical role";
+      "This Berlin-based startup wants to fundamentally change the way care is delivered in Europe, and user research with Dovetail plays a critical role.";
 
     return (
       <PageLayout>

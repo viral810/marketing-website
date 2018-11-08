@@ -42,6 +42,7 @@ const Title = styled("h1", {
 const Subtitle = styled("h2", {
   color: COLORS.i60,
   fontSize: 24,
+  fontWeight: 600,
   lineHeight: "32px",
   margin: 0
 });

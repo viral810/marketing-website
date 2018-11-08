@@ -44,7 +44,7 @@ const Card = styled("div", {
 
 const App = styled("h2", {
   fontSize: "20px",
-  fontWeight: 500,
+  fontWeight: 600,
   lineHeight: "24px",
   marginTop: "16px"
 });

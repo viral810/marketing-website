@@ -37,7 +37,7 @@ export const StyledContent = styled("div", {
     },
     h5: {
       marginTop: "24px",
-      fontWeight: 500
+      fontWeight: 600
     },
     code: {
       backgroundColor: COLORS.p08,
@@ -47,7 +47,6 @@ export const StyledContent = styled("div", {
     blockquote: {
       color: COLORS.purple,
       fontSize: 24,
-      fontStyle: "italic",
       margin: "32px 0",
       lineHeight: "36px"
     },
@@ -85,7 +84,7 @@ export const StyledContent = styled("div", {
     },
     th: {
       backgroundColor: COLORS.p08,
-      fontWeight: 500
+      fontWeight: 600
     }
   }
 });

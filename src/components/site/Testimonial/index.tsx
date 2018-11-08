@@ -46,5 +46,5 @@ export class Testimonial extends React.PureComponent<TestimonialProps> {
 
 const NameAndRole = styled("p", {
   fontSize: "12px",
-  fontWeight: 500
+  fontWeight: 600
 });

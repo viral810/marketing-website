@@ -51,7 +51,7 @@ const Wrapper = styled(
 
 const Title = styled("h4", {
   fontSize: "16px",
-  fontWeight: 500,
+  fontWeight: 600,
   lineHeight: "24px",
   margin: 0
 });

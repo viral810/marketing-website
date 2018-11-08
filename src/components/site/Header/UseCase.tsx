@@ -34,7 +34,7 @@ const linkClassName = style({
   borderRadius: BORDER_RADIUS,
   color: COLORS.i60,
   display: "block",
-  fontWeight: 500,
+  fontWeight: 600,
   lineHeight: "20px",
   textAlign: "center",
   padding: "8px 12px",

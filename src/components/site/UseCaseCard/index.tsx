@@ -45,7 +45,7 @@ const linkClassName = style({
   backgroundColor: COLORS.p04,
   borderRadius: BORDER_RADIUS,
   display: "block",
-  fontWeight: 500,
+  fontWeight: 600,
   minWidth: 0,
   padding: "24px",
 

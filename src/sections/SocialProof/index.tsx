@@ -16,7 +16,7 @@ interface Props {
 
 export class SocialProof extends React.PureComponent<Props> {
   public render() {
-    const { testimonials, title = "Loved by product managers, designers, and researchers worldwide." } = this.props;
+    const { testimonials, title = "Loved by researchers, designers, and product managers in teams worldwide." } = this.props;
 
     return (
       <Wrapper>

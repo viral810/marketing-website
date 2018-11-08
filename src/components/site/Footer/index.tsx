@@ -119,6 +119,6 @@ export class Footer extends React.PureComponent<Props> {
 const FooterFinePrint = styled("p", {
   color: "inherit",
   fontSize: "12px",
-  fontWeight: 500,
+  fontWeight: 600,
   opacity: 0.8
 });

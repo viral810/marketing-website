@@ -24,7 +24,7 @@ export default class extends React.PureComponent {
   public render() {
     const title = "Customers";
     const description =
-      "Loved by product managers, designers, and researchers worldwide, from organizations like Atlassian, Deloitte, Engima, HotelsCombined, Westpac, and more.";
+      "Loved by researchers, designers, and product managers from organizations like Atlassian, Deloitte, Engima, HotelsCombined, Westpac, and more.";
 
     return (
       <PageLayout>
@@ -119,7 +119,7 @@ export default class extends React.PureComponent {
             <Item>
               <Hero
                 center={false}
-                subtitle="Testimonials from happy researchers, product managers, and designers using Dovetail every day."
+                subtitle="Researchers, product managers, and designers use Dovetail every day."
                 title="Loved by users"
               />
             </Item>
