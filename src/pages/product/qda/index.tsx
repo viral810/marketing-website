@@ -82,7 +82,7 @@ export default class extends React.PureComponent {
             image={illustrationInsights}
             imagePosition="left"
             text="Create insights during the analysis process and store them with the source material. Learn from other projects and past research."
-            title="Summarize your research with insights."
+            title="Summarize research projects with insights."
           />
           <FeatureHeroLarge
             image={illustrationBoardLarge}
@@ -105,7 +105,7 @@ export default class extends React.PureComponent {
             image={illustrationProjectsResearch}
             imagePosition="right"
             text="Split research into projects with notes, tags, insights, and highlights. Let everyone know when your project’s completed by archiving it."
-            title="Use projects for research initiatives."
+            title="Separate research initiatives into projects."
           />
         </LightContainer>
         <Wave size="100%" />

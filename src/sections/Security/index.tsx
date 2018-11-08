@@ -53,7 +53,7 @@ export class Security extends React.PureComponent {
           location={locations.security()}
           linkText="Learn more"
           text="Dovetail is built on modern cloud infrastructure with privacy and security features designed to ensure the safety of your data."
-          title="We take your privacy and security seriously."
+          title="We take privacy and security seriously."
         />
         <Features features={BASE_SECURITY_FEATURES} large />
       </div>

@@ -92,16 +92,16 @@ export default class extends React.PureComponent {
             title="Get your research in front of stakeholders."
           />
           <FeatureHero
-            image={illustrationInsights}
+            image={illustrationProjectsResearch}
             imagePosition="right"
-            text="Create insights during the analysis process and store them with the source material. Learn from other projects and past research."
-            title="Summarize your research with insights."
+            text="Split research into projects with notes, tags, insights, and highlights. Let everyone know when your project’s completed by archiving it."
+            title="Separate research initiatives into projects."
           />
           <FeatureHero
-            image={illustrationProjectsResearch}
+            image={illustrationInsights}
             imagePosition="left"
-            text="Split research into projects with notes, tags, insights, and highlights. Let everyone know when your project’s completed by archiving it."
-            title="Use projects for research initiatives."
+            text="Create insights during the analysis process and store them with the source material. Learn from other projects and past research."
+            title="Summarize research projects with insights."
           />
           <FeatureHero
             image={illustrationHighlightEdit}

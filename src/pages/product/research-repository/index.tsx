@@ -37,30 +37,30 @@ export default class extends React.PureComponent {
           <meta property="og:image" content={process.env.GATSBY_BASE_URL + hero} />
           <meta
             property="og:description"
-            content="Keep all of your user research data in one place. Organize and analyze raw research in projects, and summarize your research with insights. Learn from other researchers across your organization."
+            content="Keep all of your qualitative research data in one place. Organize and analyze raw research in projects, and summarize your research with insights. Learn from other researchers across your organization."
           />
           <meta
             name="description"
-            content="Keep all of your user research data in one place. Organize and analyze raw research in projects, and summarize your research with insights. Learn from other researchers across your organization."
+            content="Keep all of your qualitative research data in one place. Organize and analyze raw research in projects, and summarize your research with insights. Learn from other researchers across your organization."
           />
         </Helmet>
         <LightContainer>
           <Hero
             image={illustrationSpace}
             maxTextWidth={HERO_TEXT_WIDTH}
-            title="Keep all of your user research in one place."
+            title="Keep all of your qualitative research data in one place."
             showSignUp
           />
           <FeatureHero
             image={illustrationEditor}
             imagePosition="right"
             text="Take interview notes and user testing observations in our easy-to-use, collaborative rich text editor or import entire transcripts."
-            title="Centralize user research notes."
+            title="Centralize user research notes, tags, and insights."
           />
           <FeatureHero
             image={illustrationFiles}
             imagePosition="left"
-            text="Drag and drop images, recordings, videos, presentations, and more into notes. Store files in-context. No more linking to Dropbox!"
+            text="Drag and drop images, recordings, videos, presentations, and more into notes and store files with their context. No more linking to Dropbox!"
             title="Store images, audio, video, and more."
           />
           <FeatureHeroLarge
@@ -72,7 +72,7 @@ export default class extends React.PureComponent {
             image={illustrationBarChart}
             imagePosition="right"
             text="Simply highlight text and tag it, then visualize your research with beautiful charts, ready to drop into a presentation or Slack."
-            title="Understand your project at a glance."
+            title="Understand your research at a glance."
           />
           <FeatureHeroLarge
             image={illustrationHighlightsResearch}
@@ -83,7 +83,7 @@ export default class extends React.PureComponent {
             image={illustrationProjectsResearch}
             imagePosition="right"
             text="Split research into projects with notes, tags, insights, and highlights. Let everyone know when your project’s completed by archiving it."
-            title="Use projects for research initiatives."
+            title="Separate research initiatives into projects."
           />
           <FeatureHero
             image={illustrationTeam}

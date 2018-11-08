@@ -61,7 +61,7 @@ export default class extends React.PureComponent {
             location={locations.researchRepository()}
             linkText="Learn more"
             text="Save notes, images, audio, and video in one place. Organize, search, and analyze all of your research data, past and present."
-            title="Keep all of your user research in one place."
+            title="Keep all of your research data in one place."
           />
           <SocialProof
             testimonials={[

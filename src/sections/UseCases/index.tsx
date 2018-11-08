@@ -53,7 +53,7 @@ export class UseCases extends React.PureComponent<Props> {
           <Flex styled={{ gap: HALF_GAP, layout: "column" }}>
             <Item>
               <Center>
-                <h2>Explore use cases</h2>
+                <h2>Explore use cases for teams</h2>
               </Center>
             </Item>
             <Item>{useCases}</Item>
