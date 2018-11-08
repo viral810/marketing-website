@@ -30,7 +30,7 @@ export default class extends React.PureComponent {
           <Hero
             image={illustrationHero}
             maxTextWidth={HERO_TEXT_WIDTH}
-            text="Dovetail helps you store, analyze, and collaborate on user research in one place, making it easy to see patterns, discover insights, and decide what to do next."
+            text="Dovetail helps you store, analyze, and collaborate on user research in one place, making it easy to see patterns, discover customer insights, and decide what to do next."
             showSignUp
             title="The research platform for teams."
           />
@@ -43,7 +43,7 @@ export default class extends React.PureComponent {
             image={illustrationBarChart}
             imagePosition="right"
             location={locations.qualitativeDataAnalysis()}
-            linkText="Learn more"
+            linkText="Qualitative data analysis"
             text="Use intuitive analysis tools to tag themes across data. Visualize your findings with beautiful charts and summarize them as insights."
             title="Analyze qualitative data and discover insights."
           />
@@ -51,17 +51,17 @@ export default class extends React.PureComponent {
             image={illustrationRealtime}
             imagePosition="left"
             location={locations.userResearch()}
-            linkText="Learn more"
-            text="Invite your whole organization to browse user research data, collaborate on analysis, search raw data, and consume insights."
-            title="Share research insights with your team."
+            linkText="Collaborative user research"
+            text="Invite the whole organization to browse user research data, collaborate on analysis, search raw data, and consume insights."
+            title="Collaborate on research with your whole team."
           />
           <FeatureHero
             image={illustrationFiles}
             imagePosition="right"
             location={locations.researchRepository()}
-            linkText="Learn more"
+            linkText="User research repository"
             text="Save notes, images, audio, and video in one place. Organize, search, and analyze all of your research data, past and present."
-            title="Keep all of your research data in one place."
+            title="Store and search research in one place."
           />
           <SocialProof
             testimonials={[

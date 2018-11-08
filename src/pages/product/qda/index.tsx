@@ -47,14 +47,14 @@ export default class extends React.PureComponent {
           <Hero
             image={illustrationSoftware}
             maxTextWidth={HERO_TEXT_WIDTH}
-            title="Easily analyze qualitative data in the cloud."
+            title="Analyze qualitative data in the cloud with ease."
             showSignUp
           />
           <FeatureHero
             image={illustrationEditor}
             imagePosition="right"
             text="Identify patterns across qualitative data with our rich text editor. Select text and quickly highlight sentences with tags."
-            title="Tag qualitative data with highlights."
+            title="Use highlights to tag qualitative data."
           />
           <FeatureHeroLarge
             image={illustrationHighlightsResearch}
@@ -75,7 +75,7 @@ export default class extends React.PureComponent {
           <FeatureHero
             image={illustrationFiles}
             imagePosition="right"
-            text="Drag and drop images, recordings, videos, presentations, and more into notes. Store files in-context. No more linking to Dropbox!"
+            text="Drag and drop images, recordings, videos, presentations, and more into notes and store files with their context. No more linking to Dropbox!"
             title="Import images, audio, and video files."
           />
           <FeatureHero

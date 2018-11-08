@@ -54,7 +54,7 @@ export default class extends React.PureComponent {
           <FeatureHero
             image={illustrationRealtime}
             imagePosition="left"
-            text="Take notes with your teammates during customer interviews and user testing sessions in real time, like Google Docs."
+            text="Take notes with your teammates during customer interviews and user testing sessions in real time, just like Google Docs."
             title="Collaborate on research notes in real time."
           />
           <FeatureHeroLarge
@@ -65,14 +65,14 @@ export default class extends React.PureComponent {
           <FeatureHero
             image={illustrationSearch}
             imagePosition="left"
-            text="Search within notes, tags, insights, and highlights. Use advanced querying to filter results and find what you’re looking for."
-            title="Search everywhere. Find anything."
+            text="Search within notes, tags, insights, and highlights. Use advanced querying to filter results and find the research data you’re looking for."
+            title="Search across all projects and find anything."
           />
           <FeatureHero
             image={illustrationEditor}
             imagePosition="right"
             text="Identify patterns across qualitative data with our rich text document editor. Select text and quickly highlight sentences with tags."
-            title="Tag qualitative data with highlights."
+            title="Use highlights to tag qualitative data."
           />
           <FeatureHeroLarge
             image={illustrationHighlightsResearch}
@@ -82,14 +82,14 @@ export default class extends React.PureComponent {
           <FeatureHero
             image={illustrationFiles}
             imagePosition="right"
-            text="Drag and drop images, recordings, videos, presentations, and more into notes. Store files in-context. No more linking to Dropbox!"
+            text="Drag and drop images, recordings, videos, presentations, and more into notes and store files with their context. No more linking to Dropbox!"
             title="Import images, audio, and video files."
           />
           <FeatureHero
             image={illustrationTeam}
             imagePosition="left"
             text="Invite stakeholders from your entire organization to collaborate on research analysis and consume your research insights."
-            title="Get your research in front of stakeholders."
+            title="Get user research in front of stakeholders."
           />
           <FeatureHero
             image={illustrationProjectsResearch}

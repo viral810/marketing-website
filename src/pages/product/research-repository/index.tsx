@@ -89,7 +89,7 @@ export default class extends React.PureComponent {
             image={illustrationTeam}
             imagePosition="left"
             text="Invite stakeholders from your entire organization to collaborate on research analysis and consume your research insights."
-            title="Get your research in front of stakeholders."
+            title="Get user research in front of stakeholders."
           />
           <FeatureHeroLarge
             image={illustrationBoardLarge}

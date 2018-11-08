@@ -16,7 +16,7 @@ interface Props {
 
 export class SocialProof extends React.PureComponent<Props> {
   public render() {
-    const { testimonials, title = "Loved by researchers, designers, and product managers in teams worldwide." } = this.props;
+    const { testimonials, title = "Loved by user researchers, designers, and product managers worldwide." } = this.props;
 
     return (
       <Wrapper>
@@ -24,7 +24,7 @@ export class SocialProof extends React.PureComponent<Props> {
           <Item>
             <Flex styled={{ gap: HALF_GAP, layout: "column" }}>
               <Item>
-                <Container styled={{ maxWidth: WIDTH * 0.75, padding: { x: 0, y: 0 } }}>
+                <Container styled={{ maxWidth: WIDTH * 0.66, padding: { x: 0, y: 0 } }}>
                   <Center>
                     <h2>{title}</h2>
                   </Center>
