@@ -23,7 +23,7 @@ export class StaffMemberCard extends React.PureComponent<Props> {
           <Item>
             <Flex styled={{ gap: 12, layout: "column" }}>
               <Item style={{ lineHeight: 0 }}>
-                <h3>{name}</h3>
+                <h3 style={{ fontWeight: 600 }}>{name}</h3>
               </Item>
               <Item style={{ lineHeight: 0 }}>
                 <SmallText>{role}</SmallText>
