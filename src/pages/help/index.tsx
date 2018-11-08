@@ -1,6 +1,7 @@
-import { Avatar, ButtonLink, COLORS, Flow, Item } from "@heydovetail/ui-components";
+import { AvatarWithPresence, ButtonLink, COLORS, Flow, Item } from "@heydovetail/ui-components";
 import benjamin from "@heydovetail/website/avatars/benjamin.jpg";
 import brad from "@heydovetail/website/avatars/brad.jpg";
+import chris from "@heydovetail/website/avatars/chris.jpg";
 import { ActionCard } from "@heydovetail/website/components/site/ActionCard";
 import { PageGroup } from "@heydovetail/website/components/site/PageGroup";
 import { HelpIndexQuery } from "@heydovetail/website/graphql/types";
@@ -32,7 +33,7 @@ export default class extends React.PureComponent<Props, State> {
     const weekend = isWeekend(date);
 
     // Set the state to online if it’s during working hours.
-    if (weekend === false && hours > 8 && hours < 21) {
+    if (weekend === false && hours > 8 && hours < 17) {
       this.setState({ online: true });
     }
   }
@@ -54,12 +55,15 @@ export default class extends React.PureComponent<Props, State> {
             <ButtonLink color={COLORS.purple} location={locations.email()}>
               Email support
             </ButtonLink>,
-            <Flow>
+            <Flow styled={{ gap: 4 }}>
               <Item style={{ lineHeight: 0 }}>
-                <Avatar borderColor={COLORS.p04} presenceColor={presenceColor} url={benjamin} />
+                <AvatarWithPresence borderColor={COLORS.p04} presenceColor={presenceColor} url={benjamin} />
               </Item>
               <Item style={{ lineHeight: 0 }}>
-                <Avatar borderColor={COLORS.p04} presenceColor={presenceColor} url={brad} />
+                <AvatarWithPresence borderColor={COLORS.p04} presenceColor={presenceColor} url={brad} />
+              </Item>
+              <Item style={{ lineHeight: 0 }}>
+                <AvatarWithPresence borderColor={COLORS.p04} presenceColor={presenceColor} url={chris} />
               </Item>
             </Flow>
           ]}
