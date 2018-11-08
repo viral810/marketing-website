@@ -9,8 +9,9 @@ import { locations } from "@heydovetail/website/routing/locations";
 import React from "react";
 import { Helmet } from "react-helmet";
 import { Masonry } from "react-masonry-responsive";
-import benjamin from "./benjamin.jpg";
-import brad from "./brad.jpg";
+import benjaminHumphrey from "./benjamin-humphrey.jpg";
+import bradAyers from "./brad-ayers.jpg";
+import chrisManouvrier from "./chris-manouvrier.jpg";
 import map from "./map.png";
 
 export default class extends React.PureComponent {
@@ -74,7 +75,7 @@ export default class extends React.PureComponent {
             <Item>
               <Flex styled={{ gap: 32, layout: "column" }}>
                 <Item>
-                  <h2>The founders</h2>
+                  <h2>The team</h2>
                 </Item>
                 <Item>
                   <Masonry
@@ -82,24 +83,35 @@ export default class extends React.PureComponent {
                     gap={32}
                     items={[
                       {
-                        key: "benjamin",
+                        key: "benjaminHumphrey",
                         node: (
                           <StaffMemberCard
                             bio="Benjamin is a designer, developer, and entrepreneur. Benjamin has worked in Australia, New Zealand, and the SF bay area leading projects at Atlassian, Delicious, and Ubuntu."
-                            image={benjamin}
+                            image={benjaminHumphrey}
                             name="Benjamin Humphrey"
                             role="CEO / Designer / Developer"
                           />
                         )
                       },
                       {
-                        key: "brad",
+                        key: "bradAyers",
                         node: (
                           <StaffMemberCard
                             bio="Brad’s a software architect living in Sydney. He has a Bachelor of Engineering from Griffith University and previously worked as an architect at Atlassian."
-                            image={brad}
+                            image={bradAyers}
                             name="Bradley Ayers"
                             role="CTO / Developer"
+                          />
+                        )
+                      },
+                      {
+                        key: "chrisManouvrier",
+                        node: (
+                          <StaffMemberCard
+                            bio="Chris is a software engineer based in Sydney. Chris has a Bachelor of Software Engineering and Physics from UNSW and has worked with various startups around Sydney."
+                            image={chrisManouvrier}
+                            name="Chris Manouvrier"
+                            role="Lead Developer"
                           />
                         )
                       }
