@@ -1,6 +1,6 @@
 ---
 path: "/help/search"
-date: "2018-07-17"
+date: "2018-11-14"
 title: "Search your content with full-text querying"
 weight: 1
 ---
@@ -57,3 +57,7 @@ DQL currently supports the following fields:
 DQL supports two match types for field variables. These are fuzzy match and exact match. Fuzzy match returns anything containing the word, whereas exact match returns anything matching the exact phrase. Exact matching is case-insensitive.
 
 For example, `project:feedback` would return results from two projects called ‘User feedback’ and ‘Manager feedback’, whereas `project:"user feedback"` would only return results from the ‘User feedback’ project.
+
+## Feedback
+
+We’re always looking for ways to improve new features like search. If you have ideas for search, for example more query features, please [send us your feedback](mailto:hello@dovetailapp.com)!

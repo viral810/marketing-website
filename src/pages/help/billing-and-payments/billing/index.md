@@ -1,19 +1,19 @@
 ---
-date: "2018-09-13"
+date: "2018-11-14"
 path: "/help/billing"
 title: "Upgrade to a paid subscription"
 weight: 1
 ---
 
-Dovetail has four pricing plans that you can subscribe to. Check out [the pricing page on our website](https://dovetailapp.com/pricing) or in-product for details on each plan.
+Dovetail has three pricing plans you can subscribe to. Check out [the pricing page on our website](https://dovetailapp.com/pricing) or the plans page in-product for details on each plan.
 
-![Screenshot showing the four pricing plans in-product](./plans.png)
+![Screenshot showing the three pricing plans in-product](./plans.png)
 
 You can upgrade to a paid subscription at any time during your free trial, or at any time after your free trial has expired. You can also manage your subscription, update your credit card, change the billing email address, switch your billing interval, and more.
 
 Here’s what you need to know about our paid subscriptions:
 
-- There are [four plans available](https://dovetailapp.com/pricing), starting from $9 USD / month.
+- There are [three plans available](https://dovetailapp.com/pricing), starting from $9 USD / month.
 - You can choose to pay monthly or yearly. Yearly includes a 50% discount.
 - You can choose to pay via invoice instead of credit card on our ‘Enterprise’ plan.
 - You can change plans at any time and we’ll prorate the difference.

@@ -1,5 +1,5 @@
 ---
-date: "2018-10-22"
+date: "2018-11-14"
 path: "/help/procurement"
 title: "The procurement process"
 weight: 1
@@ -7,7 +7,7 @@ weight: 1
 
 As part of your organization’s software procurement process you may be asked to provide certain documents for your IT, Legal, or Security teams. In addition, they may have specific questions or needs from us as a new cloud vendor.
 
-### What we will and won’t do
+## What we will and won’t do
 
 **We are happy to:**
 
@@ -22,7 +22,7 @@ As part of your organization’s software procurement process you may be asked t
 - Commit to prioritizing specific features on our roadmap
 - Commit to any timeline for releasing new features
 
-### Company details
+## Company details
 
 Dovetail is an Australian company.
 
@@ -32,7 +32,7 @@ Dovetail is an Australian company.
 - **ABN:** 84 615 270 025
 - **ACN:** 615 270 025
 
-### Resources
+## Resources
 
 - [Security overview](/security)
 - [Customer Terms of Service](/legal/customer-terms)
@@ -41,6 +41,6 @@ Dovetail is an Australian company.
 - [Data Subprocessors](/legal/data-subprocessors)
 - [Data Processing Agreement](/legal/dpa)
 
-### Additional information
+## Additional information
 
 If your organization has specific security, privacy, or purchasing questions, don’t hesitate to reach out to us at [hello@dovetailapp.com](mailto:hello@dovetailapp.com).

@@ -66,7 +66,7 @@ cssRule("p", {
 });
 
 cssRule("b, strong", {
-  fontWeight: 600
+  fontWeight: 700
 });
 
 cssRule("li", {

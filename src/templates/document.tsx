@@ -39,7 +39,7 @@ export default function DocumentTemplate({ data, pageContext }: Props) {
       <Container styled={{ maxWidth: WIDTH, padding: { x: PADDING, y: HALF_GAP } }}>
         <div style={{ maxWidth: WIDTH * 0.75 }}>
           <Flex styled={{ gap: 16, layout: "column" }}>
-            <Item style={{ color: COLORS.i60 }}>
+            <Item style={{ color: COLORS.i60, fontWeight: 600 }}>
               <Breadcrumbs
                 crumbs={pageContext.breadcrumb.map(breadcrumb => ({
                   location: breadcrumb.path !== null ? internal(breadcrumb.path) : undefined,
@@ -65,7 +65,7 @@ export default function DocumentTemplate({ data, pageContext }: Props) {
             <Item>
               <PageContent html={html!} />
             </Item>
-            <Item style={{ color: COLORS.i60 }}>
+            <Item style={{ color: COLORS.i60, fontWeight: 600, marginTop: 64 }}>
               <Breadcrumbs
                 crumbs={pageContext.breadcrumb.map(breadcrumb => ({
                   location: breadcrumb.path !== null ? internal(breadcrumb.path) : undefined,

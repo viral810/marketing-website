@@ -1,7 +1,7 @@
 ---
 path: "/help/zapier"
 date: "2018-05-21"
-title: "Overview of Dovetail’s Zapier app"
+title: "Overview of our Zapier app"
 weight: 1
 ---
 
@@ -29,11 +29,11 @@ Triggers help you get data **out of** Dovetail and into other apps. For example,
 
 Dovetail supports the following Zapier Triggers:
 
-| Trigger                             | Description                                                              |
-| ----------------------------------- | ------------------------------------------------------------------------ |
-| **New Note**                        | Triggers when a new note is created in a project.                        |
-| **New Tag**                         | Triggers when a new tag is created in a project.                         |
-| **New Insight**                     | Triggers when a new insight is created in a project.                     |
+| Trigger                            | Description                                                             |
+| ---------------------------------- | ----------------------------------------------------------------------- |
+| **New Note**                       | Triggers when a new note is created in a project.                       |
+| **New Tag**                        | Triggers when a new tag is created in a project.                        |
+| **New Insight**                    | Triggers when a new insight is created in a project.                    |
 | **New Highlight With Any Tag**     | Triggers when a new highlight is created with any tag in a project.     |
 | **New Highlight With Any Insight** | Triggers when a new highlight is created with any insight in a project. |
 
