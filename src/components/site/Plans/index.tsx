@@ -3,59 +3,69 @@ import { IntervalToggle } from "@heydovetail/website/components/site/Plans/Inter
 import { locations } from "@heydovetail/website/routing/locations";
 import React from "react";
 
-type ProductId = "starter" | "team" | "business" | "enterprise";
+type ProductId = "Starter" | "Business" | "Enterprise";
 
 interface Plan {
   amountMonthly: number;
   amountYearly: number;
   coreFeatures: string[];
-  current: boolean;
-  extraFeatures: string[];
   highlighted: boolean;
-  productId: ProductId;
-  projectLimit: number;
+  name: ProductId;
 }
 
 export const PLAN_DETAILS: Plan[] = [
   {
     amountMonthly: 1800,
     amountYearly: 900,
-    coreFeatures: ["Only 1 project", "Only text and images", "10MB file upload limit", "Up to 5 users"],
-    current: false,
-    extraFeatures: ["Knowledge base", "Slack community"],
+    coreFeatures: [
+      "**1** project",
+      "**5** users",
+      "**10MB** file upload limit",
+      "Text and images",
+      "**Basic** email support",
+      "Knowledge base",
+      "Slack community"
+    ],
     highlighted: false,
-    productId: "starter",
-    projectLimit: 1
-  },
-  {
-    amountMonthly: 9800,
-    amountYearly: 4900,
-    coreFeatures: ["3 projects total", "Text, images, files", "100MB file upload limit", "Unlimited users"],
-    current: false,
-    extraFeatures: ["Email support", "Knowledge base", "Slack community"],
-    highlighted: false,
-    productId: "team",
-    projectLimit: 3
+    name: "Starter"
   },
   {
     amountMonthly: 19800,
     amountYearly: 9900,
-    coreFeatures: ["10 projects total", "Text, images, files", "2GB file upload limit", "Unlimited users"],
-    current: false,
-    extraFeatures: ["Priority email support", "Knowledge base", "Slack community"],
+    coreFeatures: [
+      "**50** projects",
+      "**Unlimited** users",
+      "**2GB** file upload limit",
+      "Text, images, and files",
+      "**Priority** email support",
+      "**Project access control**",
+      "Video & audio streaming",
+      "Knowledge base",
+      "Slack community"
+    ],
     highlighted: true,
-    productId: "business",
-    projectLimit: 10
+    name: "Business"
   },
   {
-    amountMonthly: 39800,
-    amountYearly: 19900,
-    coreFeatures: ["100 projects total", "Text, images, files", "5GB file upload limit", "Unlimited users"],
-    current: false,
-    extraFeatures: ["Account manager", "Pay by invoice", "Priority email support", "Knowledge base", "Slack community"],
+    amountMonthly: 99800,
+    amountYearly: 49900,
+    coreFeatures: [
+      "**500** projects",
+      "**Unlimited** users",
+      "**5GB** file upload limit",
+      "Text, images, and files",
+      "**Premium** email support",
+      "**Project access control**",
+      "Video & audio streaming",
+      "Data encryption at rest",
+      "Data processing agreement",
+      "Account manager",
+      "Payment by invoice",
+      "Knowledge base",
+      "Slack community"
+    ],
     highlighted: false,
-    productId: "enterprise",
-    projectLimit: 100
+    name: "Enterprise"
   }
 ];
 
@@ -78,18 +88,16 @@ export class Plans extends React.PureComponent<{}, State> {
         </Item>
         <Item>
           <OverflowShadow>
-            <Flex styled={{ gap: 16 }}>
+            <Flex styled={{ gap: 32 }}>
               {PLAN_DETAILS.map((p, i) => (
-                <Item key={i} style={{ flex: "0 0 220px" }}>
+                <Item key={i} style={{ flex: "0 0 288px" }}>
                   <PricingCard
                     amount={yearly ? p.amountYearly : p.amountMonthly}
                     buttonText="Start free trial"
                     coreFeatures={p.coreFeatures}
-                    current={p.current}
-                    extraFeatures={p.extraFeatures}
                     highlighted={p.highlighted}
                     location={locations.signUp()}
-                    productId={p.productId}
+                    name={p.name}
                     yearly={yearly}
                   />
                 </Item>

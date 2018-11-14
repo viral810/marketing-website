@@ -5,6 +5,7 @@ import { LightContainer } from "@heydovetail/website/components/layout/LightCont
 import { PageLayout } from "@heydovetail/website/components/layout/PageLayout";
 import { ActionTextWithArrow } from "@heydovetail/website/components/site/ActionTextWithArrow";
 import { Faq } from "@heydovetail/website/components/site/Faq";
+import { Features } from "@heydovetail/website/components/site/Features";
 import { Hero } from "@heydovetail/website/components/site/Hero";
 import { Plans } from "@heydovetail/website/components/site/Plans";
 import Wave from "@heydovetail/website/components/site/Wave/Wave";
@@ -13,9 +14,9 @@ import { locations } from "@heydovetail/website/routing/locations";
 import { CenteredSignUp } from "@heydovetail/website/sections/CenteredSignUp";
 import { CustomerLogos } from "@heydovetail/website/sections/CustomerLogos";
 import { FrequentlyAskedQuestions } from "@heydovetail/website/sections/FrequentlyAskedQuestions";
+import debounce from "lodash.debounce";
 import React from "react";
 import { Helmet } from "react-helmet";
-import debounce from "lodash.debounce";
 
 interface State {
   showDemoToast: boolean;
@@ -46,7 +47,10 @@ export default class extends React.PureComponent<{}, State> {
         <Toast>
           {({ toast }) => {
             if (this.state.showDemoToast) {
-              toast({ action: { text: "Schedule now", location: locations.demo() }, autoHide: false, text: "Want a demo?" });
+              toast(
+                { action: { text: "Schedule now", location: locations.demo() }, autoHide: false, text: "Want a demo?" },
+                "demo"
+              );
             }
             return (
               <PageLayout>
@@ -65,6 +69,12 @@ export default class extends React.PureComponent<{}, State> {
                       <Plans />
                     </Item>
                   </Flex>
+                </LightContainer>
+                <LightContainer maxWidth={976}>
+                  <Center>
+                    <h2>Features in every plan</h2>
+                  </Center>
+                  <Features />
                 </LightContainer>
                 <Wave color={COLORS.p04} size="100%" />
                 <LightContainer backgroundColor={COLORS.p04}>
@@ -102,7 +112,7 @@ export default class extends React.PureComponent<{}, State> {
                         answer="A project is a container for your work. A single project might contain a set of user testing sessions, customer interviews, NPS responses, etc."
                       />,
                       <Faq
-                        question="What does “projects total” include?"
+                        question="What does “projects include?"
                         answer="Each plan’s project limit is the total number of projects in your team at any one time. This includes both active and archived projects."
                       />,
                       <Faq
