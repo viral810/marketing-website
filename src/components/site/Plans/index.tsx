@@ -47,8 +47,8 @@ export const PLAN_DETAILS: Plan[] = [
     name: "Business"
   },
   {
-    amountMonthly: 99800,
-    amountYearly: 49900,
+    amountMonthly: 39800,
+    amountYearly: 19900,
     coreFeatures: [
       "**500** projects",
       "**Unlimited** users",
