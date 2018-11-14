@@ -756,9 +756,9 @@
   dependencies:
     tslint-microsoft-contrib "^5.0.2"
 
-"@heydovetail/ui-components@^5.9.7":
-  version "5.9.7"
-  resolved "https://registry.yarnpkg.com/@heydovetail/ui-components/-/ui-components-5.9.7.tgz#52937ee688993ad8d794a65fae3821a91d15c7e5"
+"@heydovetail/ui-components@^5.9.8":
+  version "5.9.8"
+  resolved "https://registry.yarnpkg.com/@heydovetail/ui-components/-/ui-components-5.9.8.tgz#6087938f56dcf8aa958625effeb38aae617dd2ff"
   dependencies:
     "@heydovetail/svg-to-react" "^1.1.1"
     "@types/memoize-one" "^3.1.1"
@@ -3856,17 +3856,17 @@ commander@2.16.x, commander@~2.16.0:
   version "2.16.0"
   resolved "https://registry.yarnpkg.com/commander/-/commander-2.16.0.tgz#f16390593996ceb4f3eeb020b31d78528f7f8a50"
 
-commander@^2.10.0:
+commander@^2.10.0, commander@^2.11.0, commander@^2.12.1, commander@^2.14.1, commander@^2.15.0, commander@^2.9.0:
   version "2.19.0"
   resolved "https://registry.yarnpkg.com/commander/-/commander-2.19.0.tgz#f6198aa84e5b83c46054b94ddedbfed5ee9ff12a"
-
-commander@^2.11.0, commander@^2.12.1, commander@^2.14.1, commander@^2.15.0, commander@^2.9.0, commander@~2.17.1:
-  version "2.17.1"
-  resolved "https://registry.yarnpkg.com/commander/-/commander-2.17.1.tgz#bd77ab7de6de94205ceacc72f1716d29f20a77bf"
 
 commander@~2.13.0:
   version "2.13.0"
   resolved "https://registry.yarnpkg.com/commander/-/commander-2.13.0.tgz#6964bca67685df7c1f1430c584f07d7597885b9c"
+
+commander@~2.17.1:
+  version "2.17.1"
+  resolved "https://registry.yarnpkg.com/commander/-/commander-2.17.1.tgz#bd77ab7de6de94205ceacc72f1716d29f20a77bf"
 
 commander@~2.8.1:
   version "2.8.1"
