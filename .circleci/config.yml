@@ -28,7 +28,16 @@ aliases:
     run:
       name: Deploy
       command: |
-        aws s3 sync --acl public-read public/ s3://${S3_BUCKET_NAME}
+        # Upload all non .html files, we don't want to delete items in the
+        # bucket as they may still be requested by users who have an old version
+        # of the page open and navigate the single-page-app.
+        aws s3 sync --exclude "*.html" --acl public-read public/ s3://${S3_BUCKET_NAME}
+        # Sync .html files, deleting orphaned files from the bucket to prevent
+        # old index pages from preventing users from hitting the 404 page. For
+        # example we removed the /product index page, but previously we had left
+        # the .html in place which caused people to hit the wrong page when
+        # navigating to /product.
+        aws s3 sync --exclude "*" --include "*.html" --delete --acl public-read public/ s3://${S3_BUCKET_NAME}
         aws configure set preview.cloudfront true
         aws cloudfront create-invalidation --distribution-id ${CLOUDFRONT_DISTRIBUTION_ID} --paths '/*'
 
