@@ -19,7 +19,7 @@
     "precommit": "lint-staged",
     "develop": "ts-node ./node_modules/.bin/gatsby develop",
     "fix": "./node_modules/.bin/tslint -p tsconfig.json --fix",
-    "fix:yarn.lock": "npx yarn-tools fix-duplicates yarn.lock > yarn.lock.fixed && mv yarn.lock.fixed yarn.lock && yarn",
+    "fix:yarn.lock": "./node_modules/.bin/yarn-deduplicate yarn.lock && yarn",
     "generate:svgs": "svg-to-react src",
     "generate:types": "./node_modules/.bin/apollo-codegen introspect-schema --output src/graphql/schema.json http://localhost:8000/___graphql && ./node_modules/.bin/apollo-codegen print-schema --schema src/graphql/schema.json --output src/graphql/schema.graphql && ./node_modules/.bin/apollo-codegen generate --schema src/graphql/schema.json --target typescript --output src/graphql/types.tsx --tag-name graphql 'src/**/*.tsx'",
     "generate:zapier": "ts-node ./bin/fetch-zapier-templates.ts",
@@ -123,14 +123,15 @@
     "typescript": "^3.0.0",
     "typestyle": "^2.0.1",
     "typestyle-react": "^2.0.1",
-    "yargs": "^11.0.0"
+    "yargs": "^11.0.0",
+    "yarn": "^1.12.3",
+    "yarn-deduplicate": "^1.0.2"
   },
   "resolutions": {
     "upath": "1.0.5"
   },
   "engines": {
-    "node": "10.3.0",
-    "yarn": "1.7.0"
+    "node": "10.3.0"
   },
   "lint-staged": {
     "linters": {
