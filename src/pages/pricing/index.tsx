@@ -107,14 +107,7 @@ export default class extends React.PureComponent<{}, State> {
                 <LightContainer>
                   <FrequentlyAskedQuestions
                     faqs={[
-                      <Faq
-                        question="What does “file upload limit” mean?"
-                        answer="You can add unlimited files to Dovetail notes and insights, however the file upload limit restricts the maximum size each file can be."
-                      />,
-                      <Faq
-                        question="What if we need a longer trial?"
-                        answer="We’re happy to extend your trial for as long as you need. Just let us know if you need more time and we’ll sort it out straight away."
-                      />,
+                      ,
                       <Faq
                         question="Will we be charged when the trial’s up?"
                         answer="No, we don’t require a card upfront. If you want to continue using Dovetail at the end of your trial, we’ll ask for your credit card then."
