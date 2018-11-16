@@ -107,7 +107,6 @@ export default class extends React.PureComponent<{}, State> {
                 <LightContainer>
                   <FrequentlyAskedQuestions
                     faqs={[
-                      ,
                       <Faq
                         question="Will we be charged when the trial’s up?"
                         answer="No, we don’t require a card upfront. If you want to continue using Dovetail at the end of your trial, we’ll ask for your credit card then."
