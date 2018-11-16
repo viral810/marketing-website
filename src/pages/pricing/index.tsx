@@ -63,7 +63,7 @@ export default class extends React.PureComponent<{}, State> {
                 <LightContainer maxWidth={976}>
                   <Flex styled={{ gap: HALF_GAP / 2, layout: "column" }}>
                     <Item>
-                      <Hero center title="Simple, affordable pricing." text={description} />
+                      <Hero center title="Simple, transparent pricing." text={description} />
                     </Item>
                     <Item>
                       <Plans />
@@ -108,24 +108,8 @@ export default class extends React.PureComponent<{}, State> {
                   <FrequentlyAskedQuestions
                     faqs={[
                       <Faq
-                        question="What’s a project?"
-                        answer="A project is a container for your work. A single project might contain a set of user testing sessions, customer interviews, NPS responses, etc."
-                      />,
-                      <Faq
-                        question="What does “projects include?"
-                        answer="Each plan’s project limit is the total number of projects in your team at any one time. This includes both active and archived projects."
-                      />,
-                      <Faq
-                        question="How many projects do we need?"
-                        answer="It depends how you’d like to segment your work and how much data you have. We recommend teams start with 1 – 3 projects and see how it goes."
-                      />,
-                      <Faq
                         question="What does “file upload limit” mean?"
                         answer="You can add unlimited files to Dovetail notes and insights, however the file upload limit restricts the maximum size each file can be."
-                      />,
-                      <Faq
-                        question="What does “unlimited users” mean?"
-                        answer="You might be used to buying one software license for every user. With Dovetail, whether you have 5 or 500 users, the price is always the same."
                       />,
                       <Faq
                         question="What if we need a longer trial?"
