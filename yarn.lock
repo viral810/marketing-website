@@ -756,9 +756,9 @@
   dependencies:
     tslint-microsoft-contrib "^5.0.2"
 
-"@heydovetail/ui-components@^5.9.8":
-  version "5.9.8"
-  resolved "https://registry.yarnpkg.com/@heydovetail/ui-components/-/ui-components-5.9.8.tgz#6087938f56dcf8aa958625effeb38aae617dd2ff"
+"@heydovetail/ui-components@^5.9.12":
+  version "5.9.12"
+  resolved "https://registry.yarnpkg.com/@heydovetail/ui-components/-/ui-components-5.9.12.tgz#f7d3f28f5ad7711683d9096372553c039facbc22"
   dependencies:
     "@heydovetail/svg-to-react" "^1.1.1"
     "@types/memoize-one" "^3.1.1"

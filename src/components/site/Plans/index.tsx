@@ -58,7 +58,7 @@ export const PLAN_DETAILS: Plan[] = [
       "**Project access control**",
       "Video & audio streaming",
       "Data encryption at rest",
-      "Data processing agreement",
+      "DPA available",
       "Security assessments",
       "Payment by invoice",
       "Knowledge base",
