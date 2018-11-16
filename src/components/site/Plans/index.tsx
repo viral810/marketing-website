@@ -59,8 +59,8 @@ export const PLAN_DETAILS: Plan[] = [
       "Video & audio streaming",
       "Data encryption at rest",
       "Data processing agreement",
-      "Payment by invoice",
       "Security assessments",
+      "Payment by invoice",
       "Knowledge base",
       "Slack community"
     ],
